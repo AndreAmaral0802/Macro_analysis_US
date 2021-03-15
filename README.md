@@ -1,2 +1,2 @@
 # Macro_analysis_US
-Normality test for Vector Autoregression (VAR)
+Few codes about USA macroeconomics 
