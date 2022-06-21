@@ -25,7 +25,7 @@ CPI <- ts(df$logCPI, start = c(1959,01,01), frequency = 4)
 IR <- ts(df$logIR, start = c(1959,01,01), frequency = 4)
 Unemp <- ts(df$logUnemp, start = c(1959,01,01), frequency = 4)
 
-# bind the variabloles into a system
+# bind the variables into a system
 
 dset <- cbind(GDP, M2, CPI, IR, Unemp)
 
