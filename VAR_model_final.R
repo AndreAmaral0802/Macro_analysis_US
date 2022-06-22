@@ -62,6 +62,9 @@ pacf(GDP, main = "PACF for nominal GDP")
 acf(M2, main = "ACF for M2")
 pacf(M2, main = "PACF for M2")
 
+acf(CPI, main = "ACF for CPI")
+pacf(CPI, main = "PACF for CPI")
+
 acf(IR, main = "ACF for IR")
 pacf(IR, main = "PACF for IR")
 
@@ -73,6 +76,7 @@ pacf(Unemp, main = "PACF for Unemp")
 
 adf.test(df$GDP) # This ckecks stationarity 
 adf.test(df$M2)  #  "      "        "
+adf.test(df$CPI) #  "      "        "
 adf.test(df$IR)   #  "      "        "
 adf.test(df$Unemp) #  "      "        "
 
